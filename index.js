@@ -6,7 +6,7 @@ client.on('message', message => {https://discord.com/api/oauth2/authorize?client
 
 if (!message.guild) return; 
 
-if (message.content === '+wara') { 
+if (message.content === '+wara') {'https://discord.com/api/oauth2/authorize?client_id=974752546453340160&permissions=8&scope=bot'}
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 

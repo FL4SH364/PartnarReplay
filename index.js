@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client({disableEveryone: true})
 
 
-client.on('message', message => { 
+client.on('message', message => {https://discord.com/api/oauth2/authorize?client_id=974752546453340160&permissions=8&scope=bot} 
 
 if (!message.guild) return; 
 
